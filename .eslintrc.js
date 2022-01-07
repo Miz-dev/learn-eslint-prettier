@@ -16,10 +16,11 @@ module.exports = {
 		sourceType: "module",
 	},
 	rules: {
-		quotes: "error",
-		"no-undef": "error",
-		"react/prop-types": "off",
-		"react/jsx-props-no-spreading": "off",
+		// quotes: "error",
+		// "no-undef": "error",
+		// "react/prop-types": "off",
+		// "react/jsx-props-no-spreading": "off",
+		"no-var": "error",
 	},
 	settings: {
 		react: {
